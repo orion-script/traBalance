@@ -31,7 +31,7 @@ const Navbar = () => {
                     )}
                 </button>
             </div>
-                <ul className={`${navbar ? "bg-[#4169e1] block h-screen fixed top-16 left-0 right-0 z-10 pl-5 pt-5 w-4/5 font-bold text-xl animate-open-menu" : "hidden"} md:flex justify-between md:w-3/5 bg-White`}>
+                <ul className={`${navbar ? "bg-[#4169e1] block h-screen fixed top-16 right-0 z-10 pl-5 pt-5 w-4/5 font-bold text-xl animate-open-menu" : "hidden"} md:flex justify-between md:w-3/5 bg-White`}>
                     <li><a href="/">About</a></li>
                     <li className='py-3 md:py-0'><a href="/">Company</a></li>
                     <li><a href="/">Contact</a></li>
