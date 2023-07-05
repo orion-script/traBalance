@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import Menu from "../assets/menu.svg"
 import Close from "../assets/close.svg"
-import Link from 'next/link';
 import { useState } from "react";
 
 const Navbar = () => {
