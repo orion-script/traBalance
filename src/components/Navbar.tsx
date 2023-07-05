@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className='flex w-full h-14 md:h-20 justify-between px-5 md:px-10 lg:px-14 items-center md:static fixed top-0 z-50'>
+        <nav className='flex w-full h-14 md:h-20 justify-between px-5 md:px-10 lg:px-14 items-center shadow-lg'>
             
             <figure>
                 <figcaption className="text-[#4169e1] font-extrabold text-xl">traBalance</figcaption>
